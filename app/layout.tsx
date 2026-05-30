@@ -1,22 +1,20 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Aboreto } from "next/font/google";
+import { Aboreto, DM_Sans } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import Footer from "./components/Footer";
 
 const aboreto = Aboreto({
   weight: "400",
   subsets: ["latin"],
   variable: "--font-aboreto",
 });
+
+
+const dmSans = DM_Sans({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-dm-sans",
+})
 
 export const metadata: Metadata = {
   title: "Matias Rincon Yoga",
@@ -31,9 +29,13 @@ export default function RootLayout({
   return (
     <html
       lang="es"
-      className={`${geistSans.variable} ${geistMono.variable} ${aboreto.variable} h-full antialiased`}
+      className={`${dmSans.variable} ${aboreto.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-[#E3E0E0]">{children}</body>
+      <body className="min-h-full flex flex-col bg-[#E3E0E0]">
+        {children}
+
+      <Footer />
+      </body>
     </html>
   );
 }
