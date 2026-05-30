@@ -14,7 +14,7 @@ export default function Home() {
       </div>
 
       <div id='about-me' className="flex flex-col pl-10 pb-10 w-[90%]">
-        <h2 className="font-aboreto text-end text-[42px] my-10">Sobre mí</h2>
+        <h2 className="font-aboreto text-center md:text-end text-[42px] my-10">Sobre mí</h2>
         <div className="w-full flex flex-col md:flex-row gap-10">
           <Image
             src={aboutMeImage}
