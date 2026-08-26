@@ -1,15 +1,17 @@
 import Image from "next/image";
 import aboutMeImage from "@/public/about_me.jpg";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
       <div className="flex min-h-screen w-full px-2 pt-2 md:p-10">
-        <div className="flex flex-1 flex-col items-center justify-center bg-[url('/home_page.jpg')] bg-cover bg-center bg-no-repeat">
-          <Image src="/logo_mati.png" alt="Matias Rincon Yoga Logo" width={80} height={80} />
-          <h1 className="font-aboreto text-center text-[64px] text-[#E3E0E0] uppercase md:w-[30%]">
+        <div className="flex flex-1 flex-col gap-8 items-center justify-center bg-[url('/home_page.jpg')] bg-cover bg-center bg-no-repeat">
+          <Image src="/logo_mati.png" alt="Matias Rincon Yoga Logo" width={160} height={160} />
+          <h1 className="font-aboreto font-bold text-center text-[48px] text-[#E3E0E0] uppercase md:w-[200px]">
             Matias Rincon Yoga
           </h1>
+          <Link href='/cursos' className="bg-[#3f1518] text-[#E3E0E0] px-6 py-2 rounded-full border-1 border-[#E3E0E0] hover:font-semibold hover:scale-105 transition duration-700 ease-in-out">VER CURSOS</Link>
         </div>
       </div>
 
@@ -23,7 +25,7 @@ export default function Home() {
             sizes="(max-width: 768px) 100vw, 33vw"
           />
           <div className="w-full md:basis-1/3 text-[16px]/8 flex flex-col gap-4">
-            <p>Nací en <strong>Argentina</strong> una mañana de Diciembre del '89, ya de pequeño tenía una debilidad por el sonido y las preguntas: de dónde venimos, quiénes somos y qué hacemos acá... ante la duda, todo.</p>
+            <p>Nací en <strong>Argentina</strong> una mañana de Diciembre del 89, ya de pequeño tenía una debilidad por el sonido y las preguntas: de dónde venimos, quiénes somos y qué hacemos acá... ante la duda, todo.</p>
             <p>El sonido se fue transformando en <strong>música</strong> y las preguntas se fueron respondiendo a través de la religión, <strong>la filosofia académica</strong> y finalmente <strong>el Yoga</strong>, donde también encontré convergencias en la música clásica de India.</p>
             <p className="text-[16px]">Así, a través de diversas formaciones y maestros, retiros y viajes a la <strong>India</strong> fui realizando <strong>mi propia sintesis</strong> que me lleva a estar hoy en <strong>España</strong>, continuando mis estudios sobre Hinduismo y el Advaita-Vedanta bajo la guia amorosa de <strong>Swami Satyananda Saraswati</strong>.</p>
           </div>    
