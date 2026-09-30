@@ -1,15 +1,16 @@
-import Image, { StaticImageData } from "next/image";
+
 import Link from "next/link";
+import { ReactNode } from "react";
 
 interface CourseCardProps {
     title: string;
     status: string;
     description: string;
-    imageSrc: string | StaticImageData;
+    image: ReactNode;
     link: string;
 }
 
-export default function CourseCard({ title, status, description, imageSrc, link }: CourseCardProps) {
+export default function CourseCard({ title, status, description, image, link }: CourseCardProps) {
     return (
         <Link href={link} className="group relative flex flex-col overflow-hidden rounded-2xl border border-[#3f1518]/15 bg-[#F5F5F5] transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-[#3f1518]/10">
             {/* Content Section */}
@@ -25,12 +26,7 @@ export default function CourseCard({ title, status, description, imageSrc, link 
 
             {/* Aspect ratio container prevents image distortion */}
             <div className="relative h-80 w-full overflow-hidden bg-gray-200">
-                <Image 
-                    src={imageSrc} 
-                    alt={title} 
-                    fill
-                    className="object-cover object-[50%_18%]" 
-                />
+                {image}
             </div>
 
         </Link>
