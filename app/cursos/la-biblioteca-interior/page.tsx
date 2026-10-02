@@ -24,11 +24,15 @@ export default function CourseDetailPage () {
                 <h3 className="text-center underline">Un curso de Introducción a la Meditación</h3>
             </div>
 
-            <div className="text-center flex flex-col gap-4 md:w-[60%] mx-auto">
+            <div className="text-center flex flex-col gap-4 md:w-[70%] mx-auto">
                 <p>Este ciclo consta de 4 encuentros cuyo objetivo es por un lado, intervenir el espacio público de forma anónima e imperseptible, reconfigurando la idea de biblioteca aun habitándola bajo las mismas premisas tales como el silencio, la concentración y el conocimiento (en este caso orientado al Si-mismo)</p>
                 <p>Por otro lado, la meditación como práctica, en este caso la invitación es acercarse con auriculares y mediante el móvil acceder a un enlace a través del cual escucharemos una meditación guiada, compartiendo en silencio, al mismo tiempo y en el mismo lugar.  Al finalizar cada quien dispondrá de su estado para quedarse o irse procurando el mínimo intercambio verbal focalizando solo en la escucha.</p>
-                <p>Cada encuentro está presente como una invitación desprejuiciada a la experiencia plena.</p>
-                <p>Para más información sobre el curso y cómo participar, escribe a <Link className="underline" href={"mailto:yogaestudiolp@gmail.com"}>yogaestudiolp@gmail.com</Link></p>
+                <p>Cada encuentro está presente como una invitación desprejuiciada a la experiencia plena. Para más información sobre el curso y cómo participar, escribe a <Link className="underline" href={"mailto:yogaestudiolp@gmail.com"}>yogaestudiolp@gmail.com</Link></p>
+            </div>
+
+            <div className="flex flex-col items-center">
+                <p>Escucha aquí:</p>
+                <a href="https://drive.google.com/file/d/1w1uA1kW4JYnnC7WnhNJ1vnXpcMnRyAWa/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" className="font-bold underline">Meditación 01 - La Bilioteca Interior</a>
             </div>
 
             <Link href="/cursos" className="w-full text-[14px] md:text-[16px] uppercase text-center font-semibold text-[#3f1518]/50 transition-all duration-300 hover:-translate-y-1 hover:text-[#3f1518]">Volver a Cursos</Link>

@@ -25,14 +25,20 @@ export default function Home() {
             sizes="(max-width: 768px) 100vw, 33vw"
           />
           <div className="w-full md:basis-1/3 text-[16px]/8 flex flex-col gap-4">
-            <p>Nací en <strong>Argentina</strong> una mañana de Diciembre del 89, ya de pequeño tenía una debilidad por el sonido y las preguntas: de dónde venimos, quiénes somos y qué hacemos acá... ante la duda, todo.</p>
-            <p>El sonido se fue transformando en <strong>música</strong> y las preguntas se fueron respondiendo a través de la religión, <strong>la filosofia académica</strong> y finalmente <strong>el Yoga</strong>, donde también encontré convergencias en la música clásica de India.</p>
-            <p className="text-[16px]">Así, a través de diversas formaciones y maestros, retiros y viajes a la <strong>India</strong> fui realizando <strong>mi propia sintesis</strong> que me lleva a estar hoy en <strong>España</strong>, continuando mis estudios sobre Hinduismo y el Advaita-Vedanta bajo la guia amorosa de <strong>Swami Satyananda Saraswati</strong>.</p>
+            <p>Matías Rincon nace en <strong>Argentina</strong> donde a temprana edad comienza a tener contacto con la espiritualidad y el sonido.</p>
+            <p>En su juventud realiza estudios académicos sobre <strong>Música y Filosofía</strong> en la Universidad Nacional de La Plata convergiendo años más tarde en el <strong>Nāda Yoga (Yoga del Sonido)</strong> así como una base sólida en Catolicismo, Budismo Zen e Hinduismo.</p>
+            <p>Se forma en la ciudad de Buenos Aires en Yoga Integral, Anatomía y Biomecánica con profesores como Alejandro Chiarella y Vinicius Moraes.</p>
+            <p>En el año 2015 funda <strong>Shala 59</strong>, estudio de Yoga donde imparte clases, cursos y talleres además de formaciones de Nāda Yoga a lo largo del pais (La Plata, Bahía Blanca, Bariloche, Mendoza y Salta) y  Uruguay.</p>
+              {/* <p>Nací en <strong>Argentina</strong> una mañana de Diciembre del 89, ya de pequeño tenía una debilidad por el sonido y las preguntas: de dónde venimos, quiénes somos y qué hacemos acá... ante la duda, todo.</p>
+              <p>El sonido se fue transformando en <strong>música</strong> y las preguntas se fueron respondiendo a través de la religión, <strong>la filosofia académica</strong> y finalmente <strong>el Yoga</strong>, donde también encontré convergencias en la música clásica de India.</p>
+              <p className="text-[16px]">Así, a través de diversas formaciones y maestros, retiros y viajes a la <strong>India</strong> fui realizando <strong>mi propia sintesis</strong> que me lleva a estar hoy en <strong>España</strong>, continuando mis estudios sobre Hinduismo y el Advaita-Vedanta bajo la guia amorosa de <strong>Swami Satyananda Saraswati</strong>.</p> */}
           </div>    
 
           <div className="w-full md:basis-1/3 text-[16px]/8 flex flex-col gap-4">
-            <p className="text-[16px]">El sonido se fue transformando en música y las preguntas se fueron respondiendo a través de la religión, la filosofia académica y finalmente el Yoga, donde también encontré convergencias en la música clásica de India. <strong>Hace más de 10 años</strong> que comparto la enseñanza, y si bien esto no dice mucho, da cuenta de que el viaje es largo y para toda la vida.</p>
-            <p className="text-[14px]">PD: mi sonrisa es para <strong>Emilia</strong>, quien correteaba del otro lado de la foto y a quien dedico cada paso.</p>
+              <p>En sus viajes a <strong>India</strong> toma contacto con el reconocido intérprete de Rudra Veena, Bahauddin Dagar y la cantora Pelva Naik con quienes estudia Dhrupad, antigüo estilo de música clásica hindú. Así mismo profundiza sus estudios sobre el Yoga Integral con Ramesh Bajlani (Aurobindo New Delhi's Ashram).</p>
+              <p>Actualmente se encuentra radicado en <strong>Barcelona</strong> donde continúa sus estudios sobre Hinduismo (Sanatana Dharma) bajo la guía de Swami Satyananda Saraswati.</p>
+            {/* <p className="text-[16px]">El sonido se fue transformando en música y las preguntas se fueron respondiendo a través de la religión, la filosofia académica y finalmente el Yoga, donde también encontré convergencias en la música clásica de India. <strong>Hace más de 10 años</strong> que comparto la enseñanza, y si bien esto no dice mucho, da cuenta de que el viaje es largo y para toda la vida.</p>
+            <p className="text-[14px]">PD: mi sonrisa es para <strong>Emilia</strong>, quien correteaba del otro lado de la foto y a quien dedico cada paso.</p> */}
           </div>
         </div>
 
