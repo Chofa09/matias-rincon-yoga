@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Aboreto, DM_Sans, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 const aboreto = Aboreto({
   weight: "400",
@@ -39,9 +40,10 @@ export default function RootLayout({
       className={`${dmSans.variable} ${aboreto.variable} ${playfair.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-[#E3E0E0]">
+        <Navbar />
         {children}
 
-      <Footer />
+        <Footer />
       </body>
     </html>
   );

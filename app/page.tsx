@@ -1,7 +1,6 @@
 import Image from "next/image";
 import aboutMeImage from "@/public/about_me.jpg";
 import homePageImage from "@/public/home_page.jpg";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -17,15 +16,14 @@ export default function Home() {
           />
           <div className="relative z-10 flex flex-col gap-8 items-center justify-center">
             <Image src="/logo_mati.png" alt="Matias Rincon Yoga Logo" width={160} height={160} />
-            <h1 className="font-aboreto font-bold text-center text-[48px] text-[#E3E0E0] uppercase md:w-[200px]">
+            <h1 className="font-aboreto font-bold text-center text-[48px] text-[#E3E0E0] uppercase w-[200px]">
               Matias Rincon Yoga
             </h1>
-            <Link href='/cursos' className="bg-[#3f1518] text-[#E3E0E0] px-6 py-2 rounded-full border-1 border-[#E3E0E0] hover:font-semibold hover:scale-105 transition duration-700 ease-in-out">VER CURSOS</Link>
           </div>
         </div>
       </div>
 
-      <div id='about-me' className="flex flex-col pl-10 pb-10 w-[90%]">
+      <div id='about-me' className="min-h-screen scroll-mt-10 md: scroll-mt-14 flex flex-col pl-10 pb-10 w-[90%] md:scroll-mt-20">
         <h2 className="font-aboreto text-center md:text-end text-[42px] my-10">Sobre mí</h2>
         <div className="w-full flex flex-col md:flex-row gap-10">
           <Image

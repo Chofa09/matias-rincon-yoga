@@ -8,7 +8,7 @@ export default function CursosPage() {
     return (
         <main className="flex px-8 py-10 md:p-20 flex-col gap-8">
             <div>
-                <h1 className="font-bold text-[48px] text-center md:text-start font-serif">Cursos</h1>
+                <h1 className="text-[48px] text-center md:text-start font-aboreto">Cursos</h1>
                 <h3 className="uppercase text-center md:text-start">Archivo y próximos encuentros</h3>
             </div>
 
