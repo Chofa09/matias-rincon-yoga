@@ -18,3 +18,68 @@ body {
   color: var(--foreground);
   font-family: DM Sans, Helvetica, sans-serif;
 }
+
+@keyframes text-card-enter-from-right {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes text-card-enter-from-left {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes text-card-exit-to-left {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes text-card-exit-to-right {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.text-card-enter-right {
+  animation: text-card-enter-from-right 450ms ease-in-out both;
+}
+
+.text-card-enter-left {
+  animation: text-card-enter-from-left 450ms ease-in-out both;
+}
+
+.text-card-exit-left {
+  animation: text-card-exit-to-left 450ms ease-in-out both;
+}
+
+.text-card-exit-right {
+  animation: text-card-exit-to-right 450ms ease-in-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .text-card-enter-right,
+  .text-card-enter-left,
+  .text-card-exit-left,
+  .text-card-exit-right {
+    animation: none;
+  }
+}
