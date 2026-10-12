@@ -12,7 +12,8 @@ export default function CursosPage() {
                 <h3 className="uppercase text-center md:text-start">Archivo y próximos encuentros</h3>
             </div>
 
-            <Divider text="Próximamente"/>
+            {/* <Divider text="Próximamente"/> */}
+            <Divider text="En Curso"/>
 
             <div className="flex flex-col md:grid md:grid-cols-3 gap-4">
                 <CourseCard 
@@ -24,6 +25,7 @@ export default function CursosPage() {
                         src={BibliPoster} 
                         alt="La Biblioteca Interior"  
                         fill
+                        sizes="(max-width: 767px) calc(100vw - 4rem), calc(33.333vw - 4rem)"
                         className="object-cover object-[50%_10%] md:object-[50%_23%]" 
                     />} 
                     link="/cursos/la-biblioteca-interior"
@@ -45,6 +47,7 @@ export default function CursosPage() {
                         src={HacerLoPoster} 
                         alt="Hacer-lo Simple"  
                         fill
+                        sizes="(max-width: 767px) calc(100vw - 4rem), calc(33.333vw - 4rem)"
                         className="object-cover object-[50%_18%]" 
                     />} 
                     link="/cursos/hacer-lo-simple"

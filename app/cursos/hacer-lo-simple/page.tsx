@@ -19,6 +19,9 @@ import HacerLoPoster from "@/public/images/hacer-lo-simple/poster-hacerlo-simple
 import CourseDetailSectionLeft from "@/app/components/CourseSectionLeft";
 import CourseDetailSectionRight from "@/app/components/CourseSectionRight";
 
+const smallGalleryImageSizes = "(max-width: 767px) calc(100vw - 4rem), calc(24vw - 2.4rem)";
+const largeGalleryImageSizes = "(max-width: 767px) calc(100vw - 4rem), calc(36vw - 3.6rem)";
+
 export default function CourseDetailPage () {
 
     return (
@@ -32,9 +35,9 @@ export default function CourseDetailPage () {
 
             <CourseDetailSectionLeft 
                 posterImg={Mod1Poster}
-                img1={<Image alt="" src={Mod1Pic1} fill className="object-cover" />}
-                img2={<Image alt="" src={Mod1Pic2} fill className="object-cover" />}
-                img3={<Image alt="" src={Mod1Pic3} fill className="object-cover" />}
+                img1={<Image alt="" src={Mod1Pic1} fill sizes={smallGalleryImageSizes} className="object-cover" />}
+                img2={<Image alt="" src={Mod1Pic2} fill sizes={smallGalleryImageSizes} className="object-cover" />}
+                img3={<Image alt="" src={Mod1Pic3} fill sizes={largeGalleryImageSizes} className="object-cover" />}
                 itemNumber={1}
                 title="La escucha atenta y la mirada interior"
             >
@@ -44,9 +47,9 @@ export default function CourseDetailPage () {
 
             <CourseDetailSectionRight 
                 posterImg={Mod2Poster}
-                img1={<Image alt="" src={Mod2Pic1} fill className="object-cover" />}
-                img2={<Image alt="" src={Mod2Pic2} fill className="object-cover" />}
-                img3={<Image alt="" src={Mod2Pic3} fill className="object-cover object-[center_60%]" />}
+                img1={<Image alt="" src={Mod2Pic1} fill sizes={smallGalleryImageSizes} className="object-cover" />}
+                img2={<Image alt="" src={Mod2Pic2} fill sizes={smallGalleryImageSizes} className="object-cover" />}
+                img3={<Image alt="" src={Mod2Pic3} fill sizes={largeGalleryImageSizes} className="object-cover object-[center_60%]" />}
                 itemNumber={2}
                 title="Cuerpo disponible y respiración consciente"
             >
@@ -57,9 +60,9 @@ export default function CourseDetailPage () {
 
             <CourseDetailSectionLeft 
                 posterImg={Mod3Poster}
-                img1={<Image alt="" src={Mod3Pic1} fill className="object-cover object-[center_70%]" />}
-                img2={<Image alt="" src={Mod3Pic2} fill className="object-cover" />}
-                img3={<Image alt="" src={Mod3Pic3} fill className="object-cover object-[center_55%]" />}
+                img1={<Image alt="" src={Mod3Pic1} fill sizes={smallGalleryImageSizes} className="object-cover object-[center_70%]" />}
+                img2={<Image alt="" src={Mod3Pic2} fill sizes={smallGalleryImageSizes} className="object-cover" />}
+                img3={<Image alt="" src={Mod3Pic3} fill sizes={largeGalleryImageSizes} className="object-cover object-[center_55%]" />}
                 itemNumber={3}
                 title="La práctica, el Yoga"
             >
@@ -69,7 +72,7 @@ export default function CourseDetailPage () {
 
             <CourseDetailSectionRight 
                 posterImg={HacerLoPoster}
-                img3={<Image alt="" src={Mod4Pic} fill className="object-contain object-right" />}
+                img3={<Image alt="" src={Mod4Pic} fill sizes={largeGalleryImageSizes} className="object-contain object-right" />}
                 itemNumber={4}
                 title="Integración y entrega"
             >

@@ -1,17 +1,27 @@
 import Image from "next/image";
 import aboutMeImage from "@/public/about_me.jpg";
+import homePageImage from "@/public/home_page.jpg";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
       <div className="flex min-h-screen w-full px-2 pt-2 md:p-10">
-        <div className="flex flex-1 flex-col gap-8 items-center justify-center bg-[url('/home_page.jpg')] bg-cover bg-center bg-no-repeat">
-          <Image src="/logo_mati.png" alt="Matias Rincon Yoga Logo" width={160} height={160} />
-          <h1 className="font-aboreto font-bold text-center text-[48px] text-[#E3E0E0] uppercase md:w-[200px]">
-            Matias Rincon Yoga
-          </h1>
-          <Link href='/cursos' className="bg-[#3f1518] text-[#E3E0E0] px-6 py-2 rounded-full border-1 border-[#E3E0E0] hover:font-semibold hover:scale-105 transition duration-700 ease-in-out">VER CURSOS</Link>
+        <div className="relative flex flex-1 flex-col gap-8 items-center justify-center overflow-hidden">
+          <Image
+            src={homePageImage}
+            alt=""
+            fill
+            sizes="100vw"
+            className="object-cover object-center"
+          />
+          <div className="relative z-10 flex flex-col gap-8 items-center justify-center">
+            <Image src="/logo_mati.png" alt="Matias Rincon Yoga Logo" width={160} height={160} />
+            <h1 className="font-aboreto font-bold text-center text-[48px] text-[#E3E0E0] uppercase md:w-[200px]">
+              Matias Rincon Yoga
+            </h1>
+            <Link href='/cursos' className="bg-[#3f1518] text-[#E3E0E0] px-6 py-2 rounded-full border-1 border-[#E3E0E0] hover:font-semibold hover:scale-105 transition duration-700 ease-in-out">VER CURSOS</Link>
+          </div>
         </div>
       </div>
 
