@@ -7,7 +7,7 @@ interface TextCardProps {
 
 export default function TextCard({ paragraphs, source }: TextCardProps) {
   return (
-    <article className="mx-auto flex w-full max-w-5xl flex-col gap-8 rounded-sm bg-[#F8F6F6] p-6 shadow-[0_8px_24px_rgba(63,21,24,0.12)] md:gap-12 md:p-12">
+    <article className="mx-auto flex w-full max-w-5xl flex-col gap-8 rounded-sm bg-[#F8F6F6] px-4 py-6 shadow-[0_8px_24px_rgba(63,21,24,0.12)] md:gap-12 md:p-12">
       <div className="relative flex items-center justify-center">
         <div className="absolute inset-x-0 border-t border-[#3f1518]/50" />
         <span className="relative bg-[#F8F6F6] px-2">
