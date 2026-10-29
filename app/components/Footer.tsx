@@ -27,7 +27,7 @@ export default function Footer () {
                 <div className="flex flex-col md:flex-row gap-4 md:gap-10 text-[18px] md:text-[16px]">
                     <Link href='https://www.instagram.com/matiasrinconyoga/' target="_blank" className="underline hover:scale-101">Instagram</Link>
                     <p>Tel. +34 633547697</p>
-                    <Link href={'mailto:yogaestudiolp@gmail.com'} className="underline hover:scale-101">yogaestudiolp@gmail.com</Link>
+                    <Link href={'mailto:matiasrinconyoga@gmail.com'} className="underline hover:scale-101">matiasrinconyoga@gmail.com</Link>
                 </div>
             </div>
 

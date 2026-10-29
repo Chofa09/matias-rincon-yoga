@@ -48,10 +48,16 @@ export default function CourseDetailPage() {
                                 </a>
                             </dd>
                         </div>
+                        <div>
+                            <dt className="text-xs font-semibold uppercase tracking-[0.15em] text-[#3f1518]/50">
+                                Participación
+                            </dt>
+                            <dd className="mt-1 font-semibold">Encuentro libre y gratuito</dd>
+                        </div>
                     </dl>
 
                     <Link
-                        href="mailto:yogaestudiolp@gmail.com"
+                        href="mailto:matiasrinconyoga@gmail.com"
                         className="mt-8 w-fit rounded-full bg-[#3f1518] px-6 py-3 text-sm font-semibold text-[#F5F2EA] transition-colors hover:bg-[#572126]"
                     >
                         Consulta cómo participar
@@ -75,7 +81,7 @@ export default function CourseDetailPage() {
                         La experiencia
                     </p>
                     <h2 className="mt-3 font-aboreto text-2xl leading-snug sm:text-3xl">
-                        Una pausa compartida en la biblioteca
+                        Un espacio de silencio para entrenar la atención y la concentración
                     </h2>
                 </div>
                 <div className="flex flex-col gap-5 text-base leading-7 text-[#3f1518]/85">
@@ -104,9 +110,9 @@ export default function CourseDetailPage() {
                         participar, escribe a{" "}
                         <Link
                             className="font-semibold underline underline-offset-4"
-                            href="mailto:yogaestudiolp@gmail.com"
+                            href="mailto:matiasrinconyoga@gmail.com"
                         >
-                            yogaestudiolp@gmail.com
+                            matiasrinconyoga@gmail.com
                         </Link>
                     </p>
                 </div>
