@@ -11,14 +11,13 @@ const textCards = [
     ],
     source: "7 de Septiembre de 1961 - \"Diario\" Krishnamurti",
   },
-//   {
-//     paragraphs: [
-//       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum, neque non consequat dapibus, augue nisl dictum sapien, vitae porttitor risus lacus et erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-//       "Donec euismod, velit nec blandit tincidunt, mauris lorem tempor augue, vitae interdum libero dolor in justo. Maecenas eu consequat ligula. Duis sed turpis id justo cursus malesuada quis at lorem. Nam feugiat, sapien vel facilisis bibendum, lorem leo gravida eros.",
-//       "Aliquam erat volutpat. Suspendisse potenti. Phasellus tristique, lectus quis vestibulum luctus, sapien lectus facilisis nulla, sed ullamcorper mauris nibh vel nisl. Morbi semper lacus vitae massa interdum, sit amet faucibus quam porta.",
-//     ],
-//     source: "Por definir",
-//   },
+  {
+    paragraphs: [
+      "Una tarde, en el recodo de un camino, decidió inmovilizarse para toda la eternidad.",
+      "En vano los peregrinos acudieron, de todas partes, con sus oraciones y sus ofrendas. En vano se extremaron, ante su indiferencia, los ritos de la cábala y de la mortificación. Ni las penitencias ni las cosquillas consiguieron arrancarle tan siquiera un bostezo, y en medio del espanto se comprobó que mientras el verdín le cubría las extremidades y el pudor, su cuerpo se iba transformando, poco a poco, en una de esas piedras que se acuestan en los caminos para empollar gusanos y humedad.",
+    ],
+    source: "Espantapajaros , 15 - Oliveiro Girondo",
+  },
 //   {
 //     paragraphs: [
 //       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat, sapien vel facilisis bibendum, lorem leo gravida eros, ac consequat libero mi sed justo. Aliquam erat volutpat. Suspendisse potenti.",
