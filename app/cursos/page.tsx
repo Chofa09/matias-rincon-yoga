@@ -15,7 +15,7 @@ export default function CursosPage() {
             {/* <Divider text="Próximamente"/> */}
             <Divider text="En Curso"/>
 
-            <div className="flex flex-col md:grid md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-3">
                 <CourseCard 
                     title="La Biblioteca Interior" 
                     status="Octubre '26" 
@@ -37,7 +37,7 @@ export default function CursosPage() {
                 <p className="ml-4 mt-4 text-[14px] text-[#3f1518]/70">Pulsa un card para ver más detalles</p>
             </div>
 
-            <div className="flex flex-col md:grid md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-3">
                 <CourseCard 
                     title="Hacer-lo Simple" 
                     status="Abril '26" 
